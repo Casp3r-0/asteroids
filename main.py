@@ -49,7 +49,7 @@ def main():
 
         for asteroid in asteroids:
             if asteroid.collision(user):
-                print("You stink, loser!")
+                print("You Stink, loser!")
                 sys.exit()
 
             for shot in shots:
